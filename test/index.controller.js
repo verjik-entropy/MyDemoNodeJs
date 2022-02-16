@@ -10,4 +10,8 @@ describe('index controller test', () => {
     it('square should match result', () => {
         expect(5 * 5).toBe(25)
     })
+
+    it('multiply should work', () => {
+        expect(13 * 2).toBe(26)
+    })
 })
