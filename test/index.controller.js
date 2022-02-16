@@ -14,4 +14,8 @@ describe('index controller test', () => {
     it('multiply should work', () => {
         expect(13 * 2).toBe(26)
     })
+
+    it('subtract should sum up', () => {
+        expect(14 - 1).toBe(13)
+    })
 })
