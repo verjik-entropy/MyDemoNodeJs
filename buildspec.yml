@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - echo Installing commands...
+      - npm install
+  pre_build:
+    commands:
+      - nothing to prebuild in build phase
+  build:
+    commands:
+      - echo starting expressjs
+      - npm start
+  post_build:
+    commands:
+      - echo npm start completed
