@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - echo Installing karma...
+      - npm install -g karma-cli
+  pre_build:
+    commands:
+      - nothing to prebuild, we are using buildArtifact
+  build:
+    commands:
+      - echo starting tests
+      - npm test
+  post_build:
+    commands:
+      - echo tests completed
