@@ -9,7 +9,7 @@ phases:
       - npm install
   pre_build:
     commands:
-      - nothing to prebuild in build phase
+      - echo nothing to prebuild in build phase
   build:
     commands:
       - echo starting expressjs

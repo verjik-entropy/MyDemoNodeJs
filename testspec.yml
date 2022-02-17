@@ -9,7 +9,7 @@ phases:
       - npm install -g karma-cli
   pre_build:
     commands:
-      - nothing to prebuild, we are using buildArtifact
+      - echo nothing to prebuild, we are using buildArtifact
   build:
     commands:
       - echo starting tests
