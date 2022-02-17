@@ -12,8 +12,7 @@ phases:
       - echo nothing to prebuild in build phase
   build:
     commands:
-      - echo starting expressjs
-      - npm start
+      - echo no need to start we are testing npm install only
   post_build:
     commands:
       - echo npm start completed
